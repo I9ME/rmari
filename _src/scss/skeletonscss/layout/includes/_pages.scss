@@ -1,0 +1,295 @@
+//====================================
+// HOME
+//====================================
+
+.Intro{
+	&--home{
+
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: auto;
+		min-height: 100vh;
+		background-image: url('../images/intro--mobile.png');
+		& video{
+			display: none;
+		}
+		
+		@media screen and (min-width: $break-sm){
+
+			background-image: url('../images/intro.png');
+			min-height: calc(100vh + 85px);
+			background-position: center center;
+			
+		}
+	}
+	
+	& .Captions{
+		display: none;
+		color: $color_1;
+		&--title{			
+			line-height: 120%;
+			font-size: 24px;
+			font-weight: 300;
+			margin-bottom: $v_spacing / 2;
+			& em{
+			/* 	width: 100%;
+			color: $color_1; */
+				/* background: $color_1;
+				padding: 7.5px 10px;
+				border-radius: 10px; */
+			}
+		}
+		&--subtitle{
+			font-size: 16px;
+			font-weight: normal;
+			margin-bottom: $v_spacing / 1.6;
+			margin-left: auto;
+			margin-right: auto;
+			font-weight: 300;
+		}
+		/* & em{
+			color: $color_2;
+			font-style: normal;
+			line-height: 0;
+		} */
+		& .Line:not(.Line--3){
+			display: block;
+			width: 100%;
+			@media screen and (min-width: $break-md){
+				display: inline-block;
+				width: inherit;
+
+				/*ALTERAÇÕES PETRUS*/
+				margin-right: 20%;
+				margin-bottom: 20%;
+				font-size: 30px;
+				
+			}
+		}
+
+		& .Button,
+		& a.Button{
+			margin-bottom: $v_spacing / 1.6;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+
+		@media screen and (min-width: $break-sm){
+			display: block;
+			width: auto;
+			left: 0;
+			&--title{
+				line-height: 170%;
+				font-size: 27px;
+				max-width: 700px;
+				margin-top: $v_spacing;
+				margin-left: auto;
+				margin-right: auto;
+				color: $color_2 !important;
+			}
+			&--subtitle{
+				font-size: 16px;
+				max-width: 500px;
+			}
+			& em{
+				/* padding: 6px 12px; */
+			}
+			& .Button, a.Button{
+				letter-spacing: 3px;
+			}
+			
+		}
+		@media screen and (min-width: $break-md){
+			width: auto;
+			left: 0;
+			&--title{
+				line-height: 170%;
+				font-size: 27px;
+			}
+			&--subtitle{
+				font-size: 18px;
+				max-width: 600px;
+			}
+			& em{
+				/* padding: 8px 14px; */
+			}
+			
+		}
+	}
+	&--page{
+		min-height: $sizeColumns_px * 6;
+		padding: 100px 0 0 0;
+		background-color: $color_2;
+		background-size: cover;
+		background-position: top center;
+		&-header{
+			height: calc(100% - 100px);
+			color: $color_1;
+		}
+		&-containerHeader{
+			height: auto;
+		}
+		&-title{
+			font-size: 30px;
+			font-weight: bold;
+		}
+		&-subtitle{
+			font-size: 20px;
+			font-weight: normal;
+		}
+		@media screen and (min-width: $break-sm){
+			min-height: $sizeColumns_px * 10;
+			&-header{
+			}
+			&-containerHeader{
+			}
+			&-title{
+				font-size: 50px;
+			}
+			&-subtitle{
+				font-size: 24px;
+			}
+		}
+	}
+	&--blog{
+		min-height: $sizeColumns_px * 9;
+		padding: 218px 0 0 0;
+		background-color: $color_2;
+		background-size: cover;
+		background-position: top center;
+		&-header{
+			//height: calc(100% - 220px);
+			//color: $color_1;
+			@media screen and (min-width: $break-sm){
+				//height: 350px;
+			}
+		}
+		&-containerHeader{
+			height: auto;
+		}
+		&-title{
+			font-size: 30px;
+			font-weight: bold;
+			text-shadow: 2px 2px 7px rgba(0,0,0,0.90);
+			& .label{
+				font-size: 14px;
+				letter-spacing: 3px;
+				font-weight: normal;
+			}
+		}
+		&-subtitle{
+			font-size: 20px;
+			font-weight: normal;
+		}
+		& .ButtonLink{
+			background: $color_9;
+			border-color: $color_9;
+			color: $color_1;
+		}
+		&-headerBar{
+			background: $color_3;
+			top: 0;
+			padding-top: 120px;
+			padding-bottom: 10px;
+			& .Form{
+				padding-top:12.5px;
+				padding-bottom: 12.5px;
+				&-input{
+					&[type="submit"]{
+						width: $v_spacing * 1.5;
+						&.Form-input--searchSubmit{
+							background-color: $color_9;
+							border-color: $color_9;
+						}
+					}
+				}
+			}
+			& .Site-header-branding{
+			display: none;
+			}
+			@media screen and (min-width: $break-md){
+				display: flex;
+				padding-top: 145px;
+				padding-bottom: 18px;
+				& .Site-header-branding{
+					display: block;
+				}
+			}
+			@media screen and (min-width: $break-lg){
+				padding-top: 166px;
+			}
+
+
+			& .u-flexSwitchReverse--mobile.u-flexDirectionRow{
+				@media screen and (max-width: $break-md){
+					flex-direction: column !important;
+				}
+			}
+
+		}
+	}
+}
+.u-hasSideBar{
+	&.SiteMain{
+		& .SiteMain-main{}
+		& .SiteMain-sideBar{
+			& .Section{
+				&-header{
+					& i{
+						& svg{
+							font-size: 18px;
+						}
+					}
+					&-title{
+						font-size: 18px;
+					}
+				}
+				&--search{
+					& input[type="search"]{
+						text-indent: 0px;
+						padding-right: 30px !important;
+					}
+					& button{
+						& svg{
+							font-size: 18px;
+							margin-right: 5px;
+						}
+					}
+				}
+			}
+		}
+		@media screen and (min-width: $break-sm){
+			& .SiteMain-main{
+				margin-right: 5%;
+			}
+			& .SiteMain-sideBar{}
+			}
+	}
+
+}
+
+.single .entry-content p{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-indent: 20px;
+}
+
+
+
+.Breadcrumbs{
+	//border-top: 1px solid $color_8;
+	border-bottom: 1px solid $color_7;
+	font-size: 13px;
+	& a{
+		font-weight: bold;
+		color: $color_2;
+		&:hover{
+			color: $color_3;
+		}
+	}
+	& .u-icon{
+		font-size: 13px;
+	}
+}

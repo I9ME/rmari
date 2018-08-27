@@ -1,0 +1,409 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$-figure-icon-acao-social-color2-name: 'FigureIcon--acao-social--color2';
+$-figure-icon-acao-social-color2-x: 76px;
+$-figure-icon-acao-social-color2-y: 0px;
+$-figure-icon-acao-social-color2-offset-x: -76px;
+$-figure-icon-acao-social-color2-offset-y: 0px;
+$-figure-icon-acao-social-color2-width: 76px;
+$-figure-icon-acao-social-color2-height: 63px;
+$-figure-icon-acao-social-color2-total-width: 380px;
+$-figure-icon-acao-social-color2-total-height: 378px;
+$-figure-icon-acao-social-color2-image: '../images/sprite.png';
+$-figure-icon-acao-social-color2: (76px, 0px, -76px, 0px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--acao-social--color2', );
+$-figure-icon-acao-social-name: 'FigureIcon--acao-social';
+$-figure-icon-acao-social-x: 228px;
+$-figure-icon-acao-social-y: 189px;
+$-figure-icon-acao-social-offset-x: -228px;
+$-figure-icon-acao-social-offset-y: -189px;
+$-figure-icon-acao-social-width: 76px;
+$-figure-icon-acao-social-height: 63px;
+$-figure-icon-acao-social-total-width: 380px;
+$-figure-icon-acao-social-total-height: 378px;
+$-figure-icon-acao-social-image: '../images/sprite.png';
+$-figure-icon-acao-social: (228px, 189px, -228px, -189px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--acao-social', );
+$-figure-icon-burocracia-color2-name: 'FigureIcon--burocracia--color2';
+$-figure-icon-burocracia-color2-x: 0px;
+$-figure-icon-burocracia-color2-y: 63px;
+$-figure-icon-burocracia-color2-offset-x: 0px;
+$-figure-icon-burocracia-color2-offset-y: -63px;
+$-figure-icon-burocracia-color2-width: 76px;
+$-figure-icon-burocracia-color2-height: 63px;
+$-figure-icon-burocracia-color2-total-width: 380px;
+$-figure-icon-burocracia-color2-total-height: 378px;
+$-figure-icon-burocracia-color2-image: '../images/sprite.png';
+$-figure-icon-burocracia-color2: (0px, 63px, 0px, -63px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--burocracia--color2', );
+$-figure-icon-burocracia-name: 'FigureIcon--burocracia';
+$-figure-icon-burocracia-x: 76px;
+$-figure-icon-burocracia-y: 63px;
+$-figure-icon-burocracia-offset-x: -76px;
+$-figure-icon-burocracia-offset-y: -63px;
+$-figure-icon-burocracia-width: 76px;
+$-figure-icon-burocracia-height: 63px;
+$-figure-icon-burocracia-total-width: 380px;
+$-figure-icon-burocracia-total-height: 378px;
+$-figure-icon-burocracia-image: '../images/sprite.png';
+$-figure-icon-burocracia: (76px, 63px, -76px, -63px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--burocracia', );
+$-figure-icon-doacao-legal-name: 'FigureIcon--doacaoLegal';
+$-figure-icon-doacao-legal-x: 181px;
+$-figure-icon-doacao-legal-y: 315px;
+$-figure-icon-doacao-legal-offset-x: -181px;
+$-figure-icon-doacao-legal-offset-y: -315px;
+$-figure-icon-doacao-legal-width: 30px;
+$-figure-icon-doacao-legal-height: 30px;
+$-figure-icon-doacao-legal-total-width: 380px;
+$-figure-icon-doacao-legal-total-height: 378px;
+$-figure-icon-doacao-legal-image: '../images/sprite.png';
+$-figure-icon-doacao-legal: (181px, 315px, -181px, -315px, 30px, 30px, 380px, 378px, '../images/sprite.png', 'FigureIcon--doacaoLegal', );
+$-figure-icon-economia-color2-name: 'FigureIcon--economia--color2';
+$-figure-icon-economia-color2-x: 152px;
+$-figure-icon-economia-color2-y: 63px;
+$-figure-icon-economia-color2-offset-x: -152px;
+$-figure-icon-economia-color2-offset-y: -63px;
+$-figure-icon-economia-color2-width: 76px;
+$-figure-icon-economia-color2-height: 63px;
+$-figure-icon-economia-color2-total-width: 380px;
+$-figure-icon-economia-color2-total-height: 378px;
+$-figure-icon-economia-color2-image: '../images/sprite.png';
+$-figure-icon-economia-color2: (152px, 63px, -152px, -63px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--economia--color2', );
+$-figure-icon-economia-name: 'FigureIcon--economia';
+$-figure-icon-economia-x: 0px;
+$-figure-icon-economia-y: 126px;
+$-figure-icon-economia-offset-x: 0px;
+$-figure-icon-economia-offset-y: -126px;
+$-figure-icon-economia-width: 76px;
+$-figure-icon-economia-height: 63px;
+$-figure-icon-economia-total-width: 380px;
+$-figure-icon-economia-total-height: 378px;
+$-figure-icon-economia-image: '../images/sprite.png';
+$-figure-icon-economia: (0px, 126px, 0px, -126px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--economia', );
+$-figure-icon-educacao-color2-name: 'FigureIcon--educacao--color2';
+$-figure-icon-educacao-color2-x: 76px;
+$-figure-icon-educacao-color2-y: 126px;
+$-figure-icon-educacao-color2-offset-x: -76px;
+$-figure-icon-educacao-color2-offset-y: -126px;
+$-figure-icon-educacao-color2-width: 76px;
+$-figure-icon-educacao-color2-height: 63px;
+$-figure-icon-educacao-color2-total-width: 380px;
+$-figure-icon-educacao-color2-total-height: 378px;
+$-figure-icon-educacao-color2-image: '../images/sprite.png';
+$-figure-icon-educacao-color2: (76px, 126px, -76px, -126px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--educacao--color2', );
+$-figure-icon-educacao-name: 'FigureIcon--educacao';
+$-figure-icon-educacao-x: 117px;
+$-figure-icon-educacao-y: 315px;
+$-figure-icon-educacao-offset-x: -117px;
+$-figure-icon-educacao-offset-y: -315px;
+$-figure-icon-educacao-width: 64px;
+$-figure-icon-educacao-height: 38px;
+$-figure-icon-educacao-total-width: 380px;
+$-figure-icon-educacao-total-height: 378px;
+$-figure-icon-educacao-image: '../images/sprite.png';
+$-figure-icon-educacao: (117px, 315px, -117px, -315px, 64px, 38px, 380px, 378px, '../images/sprite.png', 'FigureIcon--educacao', );
+$-figure-icon-emprego-color2-name: 'FigureIcon--emprego--color2';
+$-figure-icon-emprego-color2-x: 143px;
+$-figure-icon-emprego-color2-y: 252px;
+$-figure-icon-emprego-color2-offset-x: -143px;
+$-figure-icon-emprego-color2-offset-y: -252px;
+$-figure-icon-emprego-color2-width: 62px;
+$-figure-icon-emprego-color2-height: 63px;
+$-figure-icon-emprego-color2-total-width: 380px;
+$-figure-icon-emprego-color2-total-height: 378px;
+$-figure-icon-emprego-color2-image: '../images/sprite.png';
+$-figure-icon-emprego-color2: (143px, 252px, -143px, -252px, 62px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--emprego--color2', );
+$-figure-icon-emprego-name: 'FigureIcon--emprego';
+$-figure-icon-emprego-x: 205px;
+$-figure-icon-emprego-y: 252px;
+$-figure-icon-emprego-offset-x: -205px;
+$-figure-icon-emprego-offset-y: -252px;
+$-figure-icon-emprego-width: 62px;
+$-figure-icon-emprego-height: 62px;
+$-figure-icon-emprego-total-width: 380px;
+$-figure-icon-emprego-total-height: 378px;
+$-figure-icon-emprego-image: '../images/sprite.png';
+$-figure-icon-emprego: (205px, 252px, -205px, -252px, 62px, 62px, 380px, 378px, '../images/sprite.png', 'FigureIcon--emprego', );
+$-figure-icon-empresas-color2-name: 'FigureIcon--empresas--color2';
+$-figure-icon-empresas-color2-x: 228px;
+$-figure-icon-empresas-color2-y: 126px;
+$-figure-icon-empresas-color2-offset-x: -228px;
+$-figure-icon-empresas-color2-offset-y: -126px;
+$-figure-icon-empresas-color2-width: 76px;
+$-figure-icon-empresas-color2-height: 63px;
+$-figure-icon-empresas-color2-total-width: 380px;
+$-figure-icon-empresas-color2-total-height: 378px;
+$-figure-icon-empresas-color2-image: '../images/sprite.png';
+$-figure-icon-empresas-color2: (228px, 126px, -228px, -126px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--empresas--color2', );
+$-figure-icon-empresas-name: 'FigureIcon--empresas';
+$-figure-icon-empresas-x: 0px;
+$-figure-icon-empresas-y: 189px;
+$-figure-icon-empresas-offset-x: 0px;
+$-figure-icon-empresas-offset-y: -189px;
+$-figure-icon-empresas-width: 76px;
+$-figure-icon-empresas-height: 63px;
+$-figure-icon-empresas-total-width: 380px;
+$-figure-icon-empresas-total-height: 378px;
+$-figure-icon-empresas-image: '../images/sprite.png';
+$-figure-icon-empresas: (0px, 189px, 0px, -189px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--empresas', );
+$-figure-icon-habitacao-color2-name: 'FigureIcon--habitacao--color2';
+$-figure-icon-habitacao-color2-x: 76px;
+$-figure-icon-habitacao-color2-y: 189px;
+$-figure-icon-habitacao-color2-offset-x: -76px;
+$-figure-icon-habitacao-color2-offset-y: -189px;
+$-figure-icon-habitacao-color2-width: 76px;
+$-figure-icon-habitacao-color2-height: 63px;
+$-figure-icon-habitacao-color2-total-width: 380px;
+$-figure-icon-habitacao-color2-total-height: 378px;
+$-figure-icon-habitacao-color2-image: '../images/sprite.png';
+$-figure-icon-habitacao-color2: (76px, 189px, -76px, -189px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--habitacao--color2', );
+$-figure-icon-habitacao-name: 'FigureIcon--habitacao';
+$-figure-icon-habitacao-x: 152px;
+$-figure-icon-habitacao-y: 189px;
+$-figure-icon-habitacao-offset-x: -152px;
+$-figure-icon-habitacao-offset-y: -189px;
+$-figure-icon-habitacao-width: 76px;
+$-figure-icon-habitacao-height: 63px;
+$-figure-icon-habitacao-total-width: 380px;
+$-figure-icon-habitacao-total-height: 378px;
+$-figure-icon-habitacao-image: '../images/sprite.png';
+$-figure-icon-habitacao: (152px, 189px, -152px, -189px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--habitacao', );
+$-figure-icon-infraestrutura-color2-name: 'FigureIcon--infraestrutura--color2';
+$-figure-icon-infraestrutura-color2-x: 0px;
+$-figure-icon-infraestrutura-color2-y: 0px;
+$-figure-icon-infraestrutura-color2-offset-x: 0px;
+$-figure-icon-infraestrutura-color2-offset-y: 0px;
+$-figure-icon-infraestrutura-color2-width: 76px;
+$-figure-icon-infraestrutura-color2-height: 63px;
+$-figure-icon-infraestrutura-color2-total-width: 380px;
+$-figure-icon-infraestrutura-color2-total-height: 378px;
+$-figure-icon-infraestrutura-color2-image: '../images/sprite.png';
+$-figure-icon-infraestrutura-color2: (0px, 0px, 0px, 0px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--infraestrutura--color2', );
+$-figure-icon-infraestrutura-name: 'FigureIcon--infraestrutura';
+$-figure-icon-infraestrutura-x: 304px;
+$-figure-icon-infraestrutura-y: 0px;
+$-figure-icon-infraestrutura-offset-x: -304px;
+$-figure-icon-infraestrutura-offset-y: 0px;
+$-figure-icon-infraestrutura-width: 76px;
+$-figure-icon-infraestrutura-height: 63px;
+$-figure-icon-infraestrutura-total-width: 380px;
+$-figure-icon-infraestrutura-total-height: 378px;
+$-figure-icon-infraestrutura-image: '../images/sprite.png';
+$-figure-icon-infraestrutura: (304px, 0px, -304px, 0px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--infraestrutura', );
+$-figure-icon-logistica-color2-name: 'FigureIcon--logistica--color2';
+$-figure-icon-logistica-color2-x: 304px;
+$-figure-icon-logistica-color2-y: 63px;
+$-figure-icon-logistica-color2-offset-x: -304px;
+$-figure-icon-logistica-color2-offset-y: -63px;
+$-figure-icon-logistica-color2-width: 76px;
+$-figure-icon-logistica-color2-height: 63px;
+$-figure-icon-logistica-color2-total-width: 380px;
+$-figure-icon-logistica-color2-total-height: 378px;
+$-figure-icon-logistica-color2-image: '../images/sprite.png';
+$-figure-icon-logistica-color2: (304px, 63px, -304px, -63px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--logistica--color2', );
+$-figure-icon-logistica-name: 'FigureIcon--logistica';
+$-figure-icon-logistica-x: 304px;
+$-figure-icon-logistica-y: 126px;
+$-figure-icon-logistica-offset-x: -304px;
+$-figure-icon-logistica-offset-y: -126px;
+$-figure-icon-logistica-width: 76px;
+$-figure-icon-logistica-height: 63px;
+$-figure-icon-logistica-total-width: 380px;
+$-figure-icon-logistica-total-height: 378px;
+$-figure-icon-logistica-image: '../images/sprite.png';
+$-figure-icon-logistica: (304px, 126px, -304px, -126px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--logistica', );
+$-figure-icon-saude-color2-name: 'FigureIcon--saude--color2';
+$-figure-icon-saude-color2-x: 0px;
+$-figure-icon-saude-color2-y: 315px;
+$-figure-icon-saude-color2-offset-x: 0px;
+$-figure-icon-saude-color2-offset-y: -315px;
+$-figure-icon-saude-color2-width: 57px;
+$-figure-icon-saude-color2-height: 63px;
+$-figure-icon-saude-color2-total-width: 380px;
+$-figure-icon-saude-color2-total-height: 378px;
+$-figure-icon-saude-color2-image: '../images/sprite.png';
+$-figure-icon-saude-color2: (0px, 315px, 0px, -315px, 57px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--saude--color2', );
+$-figure-icon-saude-name: 'FigureIcon--saude';
+$-figure-icon-saude-x: 267px;
+$-figure-icon-saude-y: 252px;
+$-figure-icon-saude-offset-x: -267px;
+$-figure-icon-saude-offset-y: -252px;
+$-figure-icon-saude-width: 57px;
+$-figure-icon-saude-height: 56px;
+$-figure-icon-saude-total-width: 380px;
+$-figure-icon-saude-total-height: 378px;
+$-figure-icon-saude-image: '../images/sprite.png';
+$-figure-icon-saude: (267px, 252px, -267px, -252px, 57px, 56px, 380px, 378px, '../images/sprite.png', 'FigureIcon--saude', );
+$-figure-icon-saude-educacao-color2-name: 'FigureIcon--saudeEducacao--color2';
+$-figure-icon-saude-educacao-color2-x: 0px;
+$-figure-icon-saude-educacao-color2-y: 252px;
+$-figure-icon-saude-educacao-color2-offset-x: 0px;
+$-figure-icon-saude-educacao-color2-offset-y: -252px;
+$-figure-icon-saude-educacao-color2-width: 76px;
+$-figure-icon-saude-educacao-color2-height: 63px;
+$-figure-icon-saude-educacao-color2-total-width: 380px;
+$-figure-icon-saude-educacao-color2-total-height: 378px;
+$-figure-icon-saude-educacao-color2-image: '../images/sprite.png';
+$-figure-icon-saude-educacao-color2: (0px, 252px, 0px, -252px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--saudeEducacao--color2', );
+$-figure-icon-saude-educacao-name: 'FigureIcon--saudeEducacao';
+$-figure-icon-saude-educacao-x: 304px;
+$-figure-icon-saude-educacao-y: 189px;
+$-figure-icon-saude-educacao-offset-x: -304px;
+$-figure-icon-saude-educacao-offset-y: -189px;
+$-figure-icon-saude-educacao-width: 76px;
+$-figure-icon-saude-educacao-height: 63px;
+$-figure-icon-saude-educacao-total-width: 380px;
+$-figure-icon-saude-educacao-total-height: 378px;
+$-figure-icon-saude-educacao-image: '../images/sprite.png';
+$-figure-icon-saude-educacao: (304px, 189px, -304px, -189px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--saudeEducacao', );
+$-figure-icon-search-name: 'FigureIcon--search';
+$-figure-icon-search-x: 324px;
+$-figure-icon-search-y: 252px;
+$-figure-icon-search-offset-x: -324px;
+$-figure-icon-search-offset-y: -252px;
+$-figure-icon-search-width: 53px;
+$-figure-icon-search-height: 33px;
+$-figure-icon-search-total-width: 380px;
+$-figure-icon-search-total-height: 378px;
+$-figure-icon-search-image: '../images/sprite.png';
+$-figure-icon-search: (324px, 252px, -324px, -252px, 53px, 33px, 380px, 378px, '../images/sprite.png', 'FigureIcon--search', );
+$-figure-icon-seguranca-color2-name: 'FigureIcon--seguranca--color2';
+$-figure-icon-seguranca-color2-x: 228px;
+$-figure-icon-seguranca-color2-y: 63px;
+$-figure-icon-seguranca-color2-offset-x: -228px;
+$-figure-icon-seguranca-color2-offset-y: -63px;
+$-figure-icon-seguranca-color2-width: 76px;
+$-figure-icon-seguranca-color2-height: 63px;
+$-figure-icon-seguranca-color2-total-width: 380px;
+$-figure-icon-seguranca-color2-total-height: 378px;
+$-figure-icon-seguranca-color2-image: '../images/sprite.png';
+$-figure-icon-seguranca-color2: (228px, 63px, -228px, -63px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--seguranca--color2', );
+$-figure-icon-seguranca-name: 'FigureIcon--seguranca';
+$-figure-icon-seguranca-x: 228px;
+$-figure-icon-seguranca-y: 0px;
+$-figure-icon-seguranca-offset-x: -228px;
+$-figure-icon-seguranca-offset-y: 0px;
+$-figure-icon-seguranca-width: 76px;
+$-figure-icon-seguranca-height: 63px;
+$-figure-icon-seguranca-total-width: 380px;
+$-figure-icon-seguranca-total-height: 378px;
+$-figure-icon-seguranca-image: '../images/sprite.png';
+$-figure-icon-seguranca: (228px, 0px, -228px, 0px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--seguranca', );
+$-figure-icon-sinal-color2-name: 'FigureIcon--sinal--color2';
+$-figure-icon-sinal-color2-x: 152px;
+$-figure-icon-sinal-color2-y: 126px;
+$-figure-icon-sinal-color2-offset-x: -152px;
+$-figure-icon-sinal-color2-offset-y: -126px;
+$-figure-icon-sinal-color2-width: 76px;
+$-figure-icon-sinal-color2-height: 63px;
+$-figure-icon-sinal-color2-total-width: 380px;
+$-figure-icon-sinal-color2-total-height: 378px;
+$-figure-icon-sinal-color2-image: '../images/sprite.png';
+$-figure-icon-sinal-color2: (152px, 126px, -152px, -126px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--sinal--color2', );
+$-figure-icon-sinal-name: 'FigureIcon--sinal';
+$-figure-icon-sinal-x: 152px;
+$-figure-icon-sinal-y: 0px;
+$-figure-icon-sinal-offset-x: -152px;
+$-figure-icon-sinal-offset-y: 0px;
+$-figure-icon-sinal-width: 76px;
+$-figure-icon-sinal-height: 63px;
+$-figure-icon-sinal-total-width: 380px;
+$-figure-icon-sinal-total-height: 378px;
+$-figure-icon-sinal-image: '../images/sprite.png';
+$-figure-icon-sinal: (152px, 0px, -152px, 0px, 76px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--sinal', );
+$-figure-icon-transparencia-color2-name: 'FigureIcon--transparencia--color2';
+$-figure-icon-transparencia-color2-x: 76px;
+$-figure-icon-transparencia-color2-y: 252px;
+$-figure-icon-transparencia-color2-offset-x: -76px;
+$-figure-icon-transparencia-color2-offset-y: -252px;
+$-figure-icon-transparencia-color2-width: 67px;
+$-figure-icon-transparencia-color2-height: 63px;
+$-figure-icon-transparencia-color2-total-width: 380px;
+$-figure-icon-transparencia-color2-total-height: 378px;
+$-figure-icon-transparencia-color2-image: '../images/sprite.png';
+$-figure-icon-transparencia-color2: (76px, 252px, -76px, -252px, 67px, 63px, 380px, 378px, '../images/sprite.png', 'FigureIcon--transparencia--color2', );
+$-figure-icon-transparencia-name: 'FigureIcon--transparencia';
+$-figure-icon-transparencia-x: 57px;
+$-figure-icon-transparencia-y: 315px;
+$-figure-icon-transparencia-offset-x: -57px;
+$-figure-icon-transparencia-offset-y: -315px;
+$-figure-icon-transparencia-width: 60px;
+$-figure-icon-transparencia-height: 48px;
+$-figure-icon-transparencia-total-width: 380px;
+$-figure-icon-transparencia-total-height: 378px;
+$-figure-icon-transparencia-image: '../images/sprite.png';
+$-figure-icon-transparencia: (57px, 315px, -57px, -315px, 60px, 48px, 380px, 378px, '../images/sprite.png', 'FigureIcon--transparencia', );
+$spritesheet-width: 380px;
+$spritesheet-height: 378px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($-figure-icon-acao-social-color2, $-figure-icon-acao-social, $-figure-icon-burocracia-color2, $-figure-icon-burocracia, $-figure-icon-doacao-legal, $-figure-icon-economia-color2, $-figure-icon-economia, $-figure-icon-educacao-color2, $-figure-icon-educacao, $-figure-icon-emprego-color2, $-figure-icon-emprego, $-figure-icon-empresas-color2, $-figure-icon-empresas, $-figure-icon-habitacao-color2, $-figure-icon-habitacao, $-figure-icon-infraestrutura-color2, $-figure-icon-infraestrutura, $-figure-icon-logistica-color2, $-figure-icon-logistica, $-figure-icon-saude-color2, $-figure-icon-saude, $-figure-icon-saude-educacao-color2, $-figure-icon-saude-educacao, $-figure-icon-search, $-figure-icon-seguranca-color2, $-figure-icon-seguranca, $-figure-icon-sinal-color2, $-figure-icon-sinal, $-figure-icon-transparencia-color2, $-figure-icon-transparencia, );
+$spritesheet: (380px, 378px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
