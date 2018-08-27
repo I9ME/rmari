@@ -6876,6 +6876,17 @@ input[type="submit"] {
   }
 }
 
+.Form--colabore .Button {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.Form--colabore .Button:hover {
+  background: #00707e;
+  border-color: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+}
+
 .is-animating, .is-animating:after, .is-animating:before {
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;

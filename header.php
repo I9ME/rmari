@@ -35,7 +35,7 @@
 		<div class="u-maxSize--container u-alignCenterBox u-sizeFull">
 			<div class="Site-header-line1 u-marginVertical u-displayFlex u-flexAlignItemsCenter_ u-flexFolowSize">
 				<!-- Logo do site -->
-				<div class="Site-header-branding u-displayFlex"> 
+				<div class="Site-header-branding u-displayFlex u-size6of24"> 
 					<a href="<?php echo linkHome(); ?>" class="u-displayBlock <?php echo classScrollDown(); ?>">
 						<img src="<?php echo  get_template_directory_uri(); ?>/assets/images/logotipo-politico--header.png" alt="Welton Lemos">
 					</a>
